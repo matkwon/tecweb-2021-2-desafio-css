@@ -130,33 +130,41 @@ textarea {
 
 .card-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-  margin:3rem;
+  margin:4rem;
 }
 
 .card {
   display:flex;
   flex-direction: column;
-  justify-content: space-between;
-  width:8.5rem;
+  justify-content: space-around;
+  width:11rem;
+  height: 6rem;
   font-family: 'Permanent Marker', cursive;
-  justify-self: flex-start;
   margin:0.5rem;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 0.4rem;
 }
+
 
 .card-content {
   display: flex;
   flex-direction: column;
-  font-size:10px;
-  margin: 0.2rem;
+  font-size:0.7rem;
+  margin-left: 0.4rem;
   margin-bottom: 0.5rem;
+  color: #4c4c4c;
   align-self: center;
+  
 }
 
 .card-title {
-  margin: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+  align-self: flex-start;
 }
 
 .card-color-1 {background-color: #ead3a7;}
